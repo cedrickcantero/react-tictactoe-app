@@ -1,0 +1,11 @@
+.board {
+    display:grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.board-row {
+    display:flex
+}
